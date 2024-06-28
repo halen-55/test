@@ -1,0 +1,10 @@
+@mixin romanNumerals {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+    opacity: 0.02;  //видимость 20%
+    line-height: 1.1;
+    font-size: 400px;
+    font-family: $font-accent;
+}
